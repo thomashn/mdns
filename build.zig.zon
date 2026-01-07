@@ -1,0 +1,18 @@
+.{
+    .name = .mdns,
+    .version = "1.4.3",
+    .dependencies = .{
+        .mdns = .{
+            .url = "git+https://github.com/mjansson/mdns.git?ref=1.4.3#1727be0602941a714cb6048a737f0584b1cebf3c",
+            .hash = "N-V-__8AAEHRAQDreURVDHES3LMuljA1wWMjgJFifmYC5vCd",
+        },
+    },
+    .minimum_zig_version = "0.15.2",
+    .paths = .{
+        "LICENSE",
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0x95a4f59178d4e8c1,
+}
